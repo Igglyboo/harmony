@@ -209,6 +209,32 @@
                     </div>
                 </div>
             </div>
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="row code">
+                        <div class="col-xs-8">
+                            <pre class="language-javascript line-numbers" data-src="slides/arrow.js"><button type="button" class="btn btn-primary pull-right">Run Code</button></pre>
+                        </div>
+                        <div class="col-xs-4">
+                            <textarea id="arrow_textarea" class="form-control output" rows="11"></textarea>
+                            <button class="btn btn-default btn-sm pull-right output">Run Code</button>
+                        </div>
+                    </div>
+                    <div class="row text">
+                        <h2 class="text-center">Arrow Functions</h2>
+                        <ul>
+                            <li>Anonymous functions with short syntax and a lexically bound "this" value.</li>
+                            <li>Usefull for some functional programming styles where a shorter function is more readable.</li>
+                            <li>Does not re-define "this" and inherits from the outer scope.
+                                <ul>
+                                    <li>Avoids that = this pattern.</li>
+                                    <li>Useful for deeply nested functions and some OOP styles.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="js/prism.min.js"></script>
