@@ -92,7 +92,7 @@
                             <pre class="language-javascript line-numbers" data-src="slides/collections.js"><button type="button" class="btn btn-primary pull-right">Run Code</button></pre>
                         </div>
                         <div class="col-xs-4">
-                            <textarea class="form-control output" rows="15"></textarea>
+                            <textarea class="form-control output" rows="16"></textarea>
                             <button class="btn btn-default btn-sm pull-right output">Run Code</button>
                         </div>
                     </div>
@@ -110,11 +110,14 @@
                                 <ul>
                                     <li>A unique value store.</li>
                                     <li>Supports similar operations as map.</li>
-                                    <li>Does not support traditional "Set Theory" operations yet.
-                                        <ul>
-                                            <li>Union, Difference, Intersection etc.</li>
-                                        </ul>
-                                    </li>
+                                    <li>Does not support traditional "Set Theory" operations (union, intersection, etc.) yet.</li>
+                                </ul>
+                            </li>
+                            <li>WeakMap and WeakSet
+                                <ul>
+                                    <li>Similar to Map and Set yet key references are "weakly" held.</li>
+                                    <li>Keys are not enumerable or recoverable but performance is much better.</li>
+                                    <li>WeakSets may only hold object values. Useful for fast membership testing.</li>
                                 </ul>
                             </li>
                         </ul>
