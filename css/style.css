@@ -1,0 +1,31 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    padding: 1%;
+    background-color: #cccccc;
+}
+
+pre.line-numbers{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button.output{
+    border-color: #272822;
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+textarea.output{
+    border-bottom-right-radius: 0;
+    border-color: #272822;
+}
+
+.text ul
+{
+    font-size: 20px;
+}

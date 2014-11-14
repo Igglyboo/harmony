@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/prism.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/ajaxScript.js"></script>
+</head>
+<body>
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="container-fluid">
+                    <div class="row code">
+                        <div class="col-xs-8">
+                            <pre class="language-javascript line-numbers" data-src="slides/array1.js"></pre>
+                        </div>
+                        <div class="col-xs-4">
+                            <textarea class="form-control output" rows="11"></textarea>
+                            <button class="btn btn-default btn-sm pull-right output">Run Code</button>
+                        </div>
+                    </div>
+                    <div class="row text">
+                        <h2 class="text-center">Arrays</h2>
+                        <ul>
+                            <li>Arrays.from()
+                                <ul>
+                                    <li>Takes an array-like or iterable object and returns an array.
+                                        <ul>
+                                            <li>Strings, Sets, Maps, etc.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Can also be provided with a map function to apply to each element.</li>
+                                </ul>
+                            </li>
+                            <li>for .. of
+                                <ul>
+                                    <li>Iterate over an array and return each element.</li>
+                                </ul>
+                            </li>
+                            <li>Array.of()
+                                <ul>
+                                    <li>Creates an array from an arbitrary number of arguments.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="row code">
+                        <div class="col-xs-8">
+                            <pre class="language-javascript line-numbers" data-src="slides/array2.js"><button type="button" class="btn btn-primary pull-right">Run Code</button></pre>
+                        </div>
+                        <div class="col-xs-4">
+                            <textarea class="form-control output" rows="11"></textarea>
+                            <button class="btn btn-default btn-sm pull-right output">Run Code</button>
+                        </div>
+                    </div>
+                    <div class="row text">
+                        <h2 class="text-center">Arrays Continued</h2>
+                        <ul>
+                            <li>Array.fill()
+                                <ul>
+                                    <li>Fills all elements of an array with a static value.</li>
+                                    <li>Can also take a start and end index.</li>
+                                </ul>
+                            </li>
+                            <li>Array.find()
+                                <ul>
+                                    <li>Returns a value in an array if any element satisfys the testing function.</li>
+                                    <li>Array.findIndex() does the same but returns the index.</li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="row code">
+                        <div class="col-xs-8">
+                            <pre class="language-javascript line-numbers" data-src="slides/collections.js"><button type="button" class="btn btn-primary pull-right">Run Code</button></pre>
+                        </div>
+                        <div class="col-xs-4">
+                            <textarea class="form-control output" rows="15"></textarea>
+                            <button class="btn btn-default btn-sm pull-right output">Run Code</button>
+                        </div>
+                    </div>
+                    <div class="row text">
+                        <h2 class="text-center">Collections</h2>
+                        <ul>
+                            <li>Map
+                                <ul>
+                                    <li>Similar to an Object but it has the ability to use non-string keys.</li>
+                                    <li>Optimized to be a performant kv store as opposed to a general Object.</li>
+                                    <li>Can get the size easily with without having to iterate over it like an Object.</li>
+                                </ul>
+                            </li>
+                            <li>Set
+                                <ul>
+                                    <li>A unique value store.</li>
+                                    <li>Supports similar operations as map.</li>
+                                    <li>Does not support traditional "Set Theory" operations yet.
+                                        <ul>
+                                            <li>Union, Difference, Intersection etc.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/prism.min.js"></script>
+</body>
+</html>
+
