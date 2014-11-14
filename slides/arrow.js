@@ -14,5 +14,5 @@ function Foo(){
         }
     }, 300);
 
-    setTimeout(x => $("arrow_textarea").attr("style", "background-color: " + this.color), 300);
+    setTimeout(x => $("#arrow_textarea").attr("style", "background-color: " + this.color), 300);
 }
